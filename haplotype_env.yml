@@ -1,0 +1,11 @@
+name: pv_haplotypes
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - biopython=1.85
+  - chopper=0.10.0
+  - seqtk
+  - vsearch
+  - mmseqs2
